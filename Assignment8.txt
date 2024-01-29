@@ -3,11 +3,8 @@ public class Main
 {
 
 public static void sum(int x, int y) {
-
 	System.out.print("Sum of "+x+" and "+y+" is: "+(x+y));
-
 	}
-
 public static void main(String[] args) {
 	int num1 = 10, num2 = 12;
 	sum(num1, num2);
