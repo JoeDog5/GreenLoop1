@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CC6AF4FF-C8FA-57E8-860B-A612581DAF64" containerWithKeyObject="C1464952-C640-D0F8-EE03-CE44E0DB6F66" localFKIndex="B8B2BFFA-7424-2ADE-7DCD-A80B82E33B1C" name="EMPLOYEE_TAX_FK">
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:20:53 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<referredTableLongName>SYSTEM.TAX</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EF57C281-3574-61CE-DF82-C3115E1FBD2A</referredTableID>
+<keyObject>372673D6-3503-4FC1-EDA9-94333EEC03D7</keyObject>
+<referredKeyID>372673D6-3503-4FC1-EDA9-94333EEC03D7</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>TAXID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>E11A7F86-7E71-2C1A-33A1-2429C1404C41</discriminatorColumn>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

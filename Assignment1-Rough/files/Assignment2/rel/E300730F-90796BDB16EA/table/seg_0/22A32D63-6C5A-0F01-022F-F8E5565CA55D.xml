@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22A32D63-6C5A-0F01-022F-F8E5565CA55D" schemaObject="7E4EFA67-963A-AE27-5396-57150E384CE9" name="DEPARTMENT">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>DEPARTMENT</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:31 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEPARTMENTID" id="7DAC0847-93E2-8C0D-5E64-96A60C5B3BAB">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>DEPARTMENT</sourceObjSchema>
+<sourceObjName>DEPARTMENTID</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:31 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTMENTNAME" id="6EC44949-AF99-E841-D9FC-062E8972990F">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>DEPARTMENT</sourceObjSchema>
+<sourceObjName>DEPARTMENTNAME</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:31 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_EMPLOYEEID" id="C6A5C52C-0F54-4B07-754F-B83C664203F4">
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:08:14 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4DDAD3C1-BAAA-AF7E-426D-FF62AF9BFBB7" name="DEPARTMENT_PK">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>DEPARTMENT_PK</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:32 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DAC0847-93E2-8C0D-5E64-96A60C5B3BAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DB4D339-E1FC-5DD5-B370-BA1651FDEC53" schemaObject="7E4EFA67-963A-AE27-5396-57150E384CE9" name="DEPARTMENT_PK">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>DEPARTMENT_PK</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:32 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DAC0847-93E2-8C0D-5E64-96A60C5B3BAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

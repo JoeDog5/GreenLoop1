@@ -1,0 +1,237 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1464952-C640-D0F8-EE03-CE44E0DB6F66" schemaObject="7E4EFA67-963A-AE27-5396-57150E384CE9" name="EMPLOYEE">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>EMPLOYEE</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:31 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPLOYEEID" id="D5A4C2C2-9AE4-76A1-1EBB-E721DE0B462A">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>EMPLOYEEID</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:31 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTMENTID" id="878C0247-0DF2-931F-FE65-385CE3A817C4">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>DEPARTMENTID</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:31 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7AEF77F-E412-815F-7D48-E8C861D865D0" referredColumn="7DAC0847-93E2-8C0D-5E64-96A60C5B3BAB"/>
+</associations>
+</Column>
+<Column name="POSITIONID" id="D83CA456-B19B-619E-DAF5-81BD5189CFB0">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>POSITIONID</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:31 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D88B5EA-1F4A-C1F3-F948-719A6AE62056" referredColumn="86863B14-14C8-9E3E-1079-28F2B9A3466F"/>
+</associations>
+</Column>
+<Column name="FIRSTNAME" id="46F247BA-52B8-9664-6BA6-CB00DB4F46A0">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>FIRSTNAME</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:31 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LASTNAME" id="B3E965B8-5A0A-09FB-B9AD-BDE690510834">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>LASTNAME</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:31 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="7B96668F-254E-2A88-746B-8C26A8EBFEB8">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>ADDRESS</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:31 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="175C2E70-279C-AA42-3DBE-87ED82EC2A92">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>CITY</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:31 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVINCE" id="EF36D022-342E-E28E-9075-6273263493EF">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>PROVINCE</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:31 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSTALCODE" id="27D47A3B-931C-56AA-6D98-79FECE17971A">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>POSTALCODE</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:31 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>7 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARY" id="39999B58-596A-BA9C-1D7B-77655A7E5607">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>SALARY</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:31 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAX_TAXID" id="0E31A05B-798E-4873-7C1B-FC9F97B9968D">
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:20:53 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC6AF4FF-C8FA-57E8-860B-A612581DAF64" referredColumn="734BD512-B620-EDEA-BD4F-31304BF6940F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E381010-3C93-9749-0AE9-8D4E82FD37CE" name="EMPLOYEE_PK">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>EMPLOYEE_PK</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:32 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5A4C2C2-9AE4-76A1-1EBB-E721DE0B462A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79C1083F-A314-FE68-6E76-7EF3CFB08F2F" schemaObject="7E4EFA67-963A-AE27-5396-57150E384CE9" name="EMPLOYEE_PK">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>EMPLOYEE_PK</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:32 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5A4C2C2-9AE4-76A1-1EBB-E721DE0B462A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51658B58-F472-C771-89C7-F4C643AD7EDB" name="EMPLOYEE_FK1">
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:18:09 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="878C0247-0DF2-931F-FE65-385CE3A817C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D698152D-88E1-93A3-0CB9-0D7E5F314C66" name="EMPLOYEE_FK2">
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:18:09 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D83CA456-B19B-619E-DAF5-81BD5189CFB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8B2BFFA-7424-2ADE-7DCD-A80B82E33B1C" name="EMPLOYEE_TAX_FK">
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:20:53 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E31A05B-798E-4873-7C1B-FC9F97B9968D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

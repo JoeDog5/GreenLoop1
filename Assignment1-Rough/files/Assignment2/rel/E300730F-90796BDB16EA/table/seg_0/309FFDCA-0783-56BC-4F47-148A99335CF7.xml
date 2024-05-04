@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="309FFDCA-0783-56BC-4F47-148A99335CF7" schemaObject="7E4EFA67-963A-AE27-5396-57150E384CE9" name="CUSTOMER">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>CUSTOMER</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:31 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMERID" id="A137F731-7E45-7B16-D4B0-049426E536BA">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMERID</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:31 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRSTNAME" id="4C203648-6FFE-BF5A-9937-86B418A06B9A">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>FIRSTNAME</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:31 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LASTNAME" id="28576C34-BD0E-4FF9-EDD4-1D6A30AA5F83">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>LASTNAME</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:31 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMPANY" id="43C0DDBE-AE58-AA73-A05A-F2F0F4888E23">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>COMPANY</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:31 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="13745EB3-04B5-DBBA-38A6-56A4C958B601">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>ADDRESS</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:31 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="51F99614-276E-0200-1756-D0B8CE085080">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CITY</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:31 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVINCE" id="58F2BFB6-35DF-43E7-D2FB-C3ADDD71489E">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>PROVINCE</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:31 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSTALCODE" id="DB61E3A0-DB61-2732-9838-BA75579C7ED9">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>POSTALCODE</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:31 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>7 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B355F19-AC11-3F2A-DC6A-8FFDA211A410" name="CUSTOMER_PK">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>CUSTOMER_PK</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:32 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A137F731-7E45-7B16-D4B0-049426E536BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9B885AD-223E-280B-BD27-03083B3435F0" schemaObject="7E4EFA67-963A-AE27-5396-57150E384CE9" name="CUSTOMER_PK">
+<sourceConnName>Assignment2</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>CUSTOMER_PK</sourceObjName>
+<createdBy>kenny</createdBy>
+<createdTime>2024-05-04 03:06:31 UTC</createdTime>
+<ownerDesignName>Assignment2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A137F731-7E45-7B16-D4B0-049426E536BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
