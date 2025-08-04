@@ -51,24 +51,23 @@ public class VendorDAO {
 		return vendorList;
 	}
 
-	//Get single vendor (for notification or verification)
 	public static Vendor getVendorById(int vendorId) {
-		String sql = "SELECT vendor_id, name, email FROM vendors WHERE vendor_id = ?";
-		try (Connection conn = DBConnection.getConnection();
-			PreparedStatement stmt = conn.prepareStatement(sql)) {
-			stmt.setInt(1, vendorId);
-			ResultSet rs = stmt.executeQuery();
-
-			if (rs.next()) {
-				Vendor vendor = new Vendor();
-				vendor.setId(rs.getInt("vendor_id"));
-				vendor.setName(rs.getString("name"));
-				vendor.setEmail(rs.getString("email"));
-				return vendor;
-			}
-	} catch (Exception e) {
-		e.printStackTrace();
-		}
-		return null;
+	    String sql = "SELECT vendor_id, name, email FROM vendors WHERE vendor_id = ?";
+	    try (Connection conn = DBConnection.getConnection();
+	         PreparedStatement stmt = conn.prepareStatement(sql)) {
+	        stmt.setInt(1, vendorId);
+	        try (ResultSet rs = stmt.executeQuery()) {
+	            if (rs.next()) {
+	                Vendor vendor = new Vendor();
+	                vendor.setId(rs.getInt("vendor_id"));
+	                vendor.setName(rs.getString("name"));
+	                vendor.setEmail(rs.getString("email"));
+	                return vendor;
+	            }
+	        }
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	    }
+	    return null;
 	}
 }
