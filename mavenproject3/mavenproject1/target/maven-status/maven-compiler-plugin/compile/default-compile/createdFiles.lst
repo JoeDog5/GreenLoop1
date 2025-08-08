@@ -1,6 +1,0 @@
-com\greenloop\model\Product.class
-com\joseph\mavenproject1\resources\JakartaEE8Resource.class
-com\joseph\mavenproject1\JakartaRestConfiguration.class
-com\greenloop\dao\ProductDAO.class
-com\greenloop\servlet\VendorProductServlet.class
-com\greenloop\util\DatabaseUtil.class
